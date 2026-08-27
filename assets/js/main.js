@@ -102,7 +102,7 @@ const CONFIG = {
 
     var lead = {
       name: name, email: email, telegram: tg,
-      marketing: form.marketing.checked, product: "Оракул Беллин - книга", price: "500 EUR"
+      marketing: form.marketing.checked, product: "Оракул Беллин - книга", price: "48000 RUB"
     };
 
     // Необязательно: сохранить заявку до перехода на оплату
@@ -123,7 +123,7 @@ const CONFIG = {
       // Ссылка оплаты ещё не настроена
       alert("Ссылка на оплату ещё не подключена. Укажите PRODAMUS_URL в файле assets/js/main.js.");
       var btn = document.querySelector('#buyForm button[type="submit"]');
-      if (btn) { btn.disabled = false; btn.innerHTML = 'Купить книгу за 500&nbsp;€ <span class="arrow" aria-hidden="true">→</span>'; }
+      if (btn) { btn.disabled = false; btn.innerHTML = 'Купить книгу за 48&nbsp;000&nbsp;₽ <span class="arrow" aria-hidden="true">→</span>'; }
       return;
     }
 
