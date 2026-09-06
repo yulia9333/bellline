@@ -42,6 +42,10 @@ body::before {
 img { display: block; max-width: 100%; height: auto; }
 a { color: inherit; text-decoration: none; }
 button, input { font: inherit; }
+[hidden] { display: none !important; }
+.text-action { padding: 0; background: none; border: 0; color: inherit; text-decoration: underline; text-underline-offset: 3px; cursor: pointer; text-align: left; }
+.text-action:focus-visible { outline: 2px solid currentColor; outline-offset: 4px; }
+.book-specs { font-size: 14px; max-width: 100%; }
 ::selection { color: var(--paper-light); background: var(--terra); }
 
 .wrap { width: 100%; max-width: var(--wrap); margin-inline: auto; padding-inline: var(--gutter); }
